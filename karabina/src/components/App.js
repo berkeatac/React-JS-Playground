@@ -13,7 +13,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="ui container" style={{ marginTop: "10px" }}>
-        <SearchBar onSubmit={this.onSearchSubmit} />
+        {/* <SearchBar onSubmit={this.onSearchSubmit} /> */}
+        <div className="ui segment">
+          <h1 style={{ textAlign: "center" }}>routes</h1>
+        </div>
         <ImageList images={this.state.images} onClickF={this.onImageClick} />
       </div>
     );
