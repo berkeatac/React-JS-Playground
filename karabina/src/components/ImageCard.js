@@ -12,6 +12,9 @@ class ImageCard extends React.Component {
     // console.log(this.imageRef);
     // console.log(this.imageRef.current.clientHeight);
     this.imageRef.current.addEventListener("load", this.setSpans);
+    this.imageRef.current.addEventListener("click", e =>
+      this.props.onClickF(this.props.image)
+    );
   }
 
   setSpans = () => {
@@ -25,7 +28,9 @@ class ImageCard extends React.Component {
   render() {
     // const { description, urls } = this.props.image;
     return (
-      <div style={{ gridRowEnd: `span ${this.state.spans}` }}>
+      <div
+        style={{ gridRowEnd: `span ${this.state.spans}`, textAlign: "center" }}
+      >
         <img ref={this.imageRef} src={this.props.image.src} />
       </div>
     );

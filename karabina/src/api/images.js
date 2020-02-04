@@ -1,39 +1,45 @@
 const images = [
   {
     id: 1,
-    src: "../../public/ungraded/_yasinaydin.JPG",
+    src: "/ungraded/_yasinaydin.JPG",
     title: "foo",
-    description: "bar"
+    description: "bar",
+    grade: "ungraded"
   },
   {
     id: 2,
-    src: "../../public/ungraded/aCross_yasinaydin.JPG",
+    src: "/ungraded/aCross_yasinaydin.JPG",
     title: "foo",
-    description: "bar"
+    description: "bar",
+    grade: "ungraded"
   },
   {
     id: 3,
-    src: "../../public/ungraded/final2_yasinaydin.JPG",
+    src: "/ungraded/final2_yasinaydin.JPG",
     title: "foo",
-    description: "bar"
+    description: "bar",
+    grade: "ungraded"
   },
   {
     id: 4,
-    src: "../../public/ungraded/final_yasinaydin.JPG",
+    src: "/ungraded/final_yasinaydin.JPG",
     title: "foo",
-    description: "bar"
+    description: "bar",
+    grade: "ungraded"
   },
   {
     id: 5,
-    src: "../../public/ungraded/Last Day2_yasinaydin.JPG",
+    src: "/ungraded/Last Day2_yasinaydin.JPG",
     title: "foo",
-    description: "bar"
+    description: "bar",
+    grade: "ungraded"
   },
   {
     id: 6,
-    src: `/public/ungraded/Last Day_yasinaydin.JPG1`,
+    src: `/ungraded/Last Day_yasinaydin.JPG`,
     title: "foo",
-    description: "bar"
+    description: "bar",
+    grade: "ungraded"
   }
 ];
 

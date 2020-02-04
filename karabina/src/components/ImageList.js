@@ -12,7 +12,9 @@ const ImageList = props => {
   //   <ImageCard image={image} key={image.id} />
   // ));
 
-  const imgs = images.map(image => <ImageCard image={image} key={image.id} />);
+  const imgs = images.map(image => (
+    <ImageCard image={image} key={image.id} onClickF={props.onClickF} />
+  ));
 
   return <div className="image-list">{imgs}</div>;
 };
