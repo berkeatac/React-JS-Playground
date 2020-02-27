@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function StreamEdit() {
+const StreamEdit = props => {
+  console.log(props);
+
   return <div>StreamEdit</div>;
-}
+};
+
+export default StreamEdit;
