@@ -8,6 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "json-server": "^0.16.1",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   }
 }
